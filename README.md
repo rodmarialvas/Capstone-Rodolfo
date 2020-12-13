@@ -28,7 +28,7 @@ I soon realized that collecting and cleaning the data would turn out to be the m
 
 2. **Selecting the data and creating final dataframe.**
 
-Once I was able to clean all the data and collect all the information from the top 5 leagues, I've realized that the last 3 seasons were the ones were the data looked accurate and complete. I've then decided I would be using just these seasons for the purpose of this project.
+Once I was able to clean all the data and collect all the information from the top 5 leagues, I've realized that the last 3 seasons were the ones where the data was accurate and complete. I've then decided I would be using just these seasons for the purpose of this project.
 
 
 ### **Capstone, Part 3: EDA + Preliminary Analysis**
