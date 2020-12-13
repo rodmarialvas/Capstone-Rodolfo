@@ -6,7 +6,7 @@ Since the start of the course I knew my capstone would have to be inspired on wh
 
 I've always felt that although performances and results depend on many factors, there is so much that stats can explain and insights to be found that can be extremely useful and used to add value to a team. I've decided to collect as much detailed data as possible from each player so that I could have as many insights as possible and make the most accurate predictions.
 
-( for full pdf presentation - ***[presentation](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Capstone%20Data%20Science%20-%20Rodolfo.pdf) )
+( for full pdf presentation - [presentation](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Capstone%20Data%20Science%20-%20Rodolfo.pdf) )
 
 
 ### **Capstone, Part 1: Goals**
@@ -20,7 +20,7 @@ I've always felt that although performances and results depend on many factors, 
 
 1. **Data Source - Football Api**
 
-******insert image data structure
+![Data Source](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
 
 I soon realized that collecting and cleaning the data would turn out to be the most challenging side of the project, this was due to the amount of nested dictionaries and lists and how the data was structured within the api.
 
@@ -141,4 +141,4 @@ Best estimator mean cross validated training score:
 2. Understanding where do goalscorers come from to be able to determine which nationalities have more scoring talent and adapt better to each league.
 3. Analysing the young stars that have been performing at a top level.
 
-
+[Tableau link](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Capstone.twb)
