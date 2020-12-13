@@ -9,14 +9,14 @@ I've always felt that although performances and results depend on many factors, 
 ( for full pdf presentation - [presentation](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Capstone%20Data%20Science%20-%20Rodolfo.pdf) )
 
 
-### **Capstone, Part 1: Goals**
+### **Capstone Part 1: Goals**
 
 1. Provide valuable insights that can be useful to agents, investors, betting companies, managers, scouts and football professionals in general.
 2. Predict season average ratings and most important stats for each position with regression models. 
 3. Predict level of season performance with classification models. 
 4. Find the best performing young stars. (in Tableau) 
 
-### **Capstone, Part 2: Dataset + Data Collection**
+### **Capstone Part 2: Dataset + Data Collection**
 
 1. **Data Source - Football Api**
 
@@ -31,14 +31,14 @@ I soon realized that collecting and cleaning the data would turn out to be the m
 Once I was able to clean all the data and collect all the information from the top 5 leagues, I've realized that the last 3 seasons were the ones where the data was accurate and complete. I've then decided I would be using just these seasons for the purpose of this project.
 
 
-### **Capstone, Part 3: EDA + Preliminary Analysis**
+### **Capstone Part 3: EDA + Preliminary Analysis**
 
 1. **Heatmap, pair plot, histograms and correlations.**
 
 Initially, my idea was to only predict the average rating players get at the end of each season but after analysing the correlations via the heatmap, I was surprised that for some of the features the correlation was not as high as I expected. This led me to decide I would try and predict others variables as well, due to the nature of the sport I've selected the most important stats for each position (goals_scored for attackers and midfielders, assists for midfielders, duels_won for the defenders and goals_conceded for the goalkeepers). As the full heatmap is harder to read, I've created specific heatmaps to analyse each of the target variables and their correlations.
 
 
-### **Capstone, Part 4: Modeling with regressors**
+### **Capstone Part 4: Modeling with regressors**
 
 Models used : Linear regression, LassoCV, RidgeCV, ElasticnetCV, Knn Regressor, Decision Tree Regressor ( shown below only some of the best results )
 
@@ -87,7 +87,7 @@ Mean cross-validated training score: 0.7438977475673354 (not as high as for the 
 Mean cross-validated training score: 0.92422246095634348
 
 
-### **Capstone, Part 5: Modeling with classifiers**
+### **Capstone Part 5: Modeling with classifiers**
 
 Models used : Logistic regression and Gridsearch (L1 & L2 penalties), Knn Classifier, Decision Tree Classifier, Random Forrest Classifier ( shown below only some of the best results )
 
@@ -139,7 +139,7 @@ Best estimator mean cross validated training score:
 0.9418300653594771
 
 
-### **Capstone, Part 6: Analysing the leagues and the top young stars in Tableau**
+### **Capstone Part 6: Analysing the leagues and the top young stars in Tableau**
 
 1. Comparison of discipline, offensive and defensive stats between leagues.
 2. Understanding where do goalscorers come from to be able to determine which nationalities have more scoring talent and adapt better to each league.
