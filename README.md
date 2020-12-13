@@ -109,7 +109,7 @@ min          3.000000
 
 max          9.400000
 
-As mean rating is 6.87, I've decided to create a binary variable were 'top performers' are all players performing above threshold of 7.0. 
+As mean rating is 6.87, I've decided to create a binary variable where 'top performers' are all players performing above threshold of 7.0. 
 
 0 = 'normal performers'
 
