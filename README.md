@@ -20,11 +20,11 @@ I've always felt that although performances and results depend on many factors, 
 
 1. **Data Source - Football Api**
 
-![Data Source](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+![Data Source](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/archi-beta.jpg)
 
 I soon realized that collecting and cleaning the data would turn out to be the most challenging side of the project, this was due to the amount of nested dictionaries and lists and how the data was structured within the api.
 
-*********insert image json 
+![Text](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/jsontext.png) 
 
 2. **Selecting the data and creating final dataframe.**
 
