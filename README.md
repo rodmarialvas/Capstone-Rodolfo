@@ -115,11 +115,15 @@ As mean rating is 6.87, I've decided to create a binary variable were 'top perfo
 
 1 = 'top performers'
 
+**Proportion of the classes**
+
 0    0.703636
 
 1    0.296364
 
 baseline = 0.7036364701059905
+
+**Due to unbalanced classes 'classweight = balanced' was used**
 
 
 1. **GridsearchCV** ( penalty = l2, classweight = balanced, scoring = accuracy )
