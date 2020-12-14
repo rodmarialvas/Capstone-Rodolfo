@@ -146,3 +146,20 @@ Best estimator mean cross validated training score:
 3. Analysing the young stars that have been performing at a top level.
 
 [Tableau link](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Capstone.twb)
+
+*Created a dataframe just with under 23 players.
+*Filtered the dataframe to have only players who performed above average and played more than 9 matches.
+
+[Under 23 data](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Future%20Stars.ipynb)
+
+(Tableau screenshots below)
+
+![Tableau screenshots](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/League%20stats.png)
+
+![Tableau screenshots](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/World%20Goals.png)
+
+![Tableau screenshots](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Goals%20per%20nationality%20and%20league.png)
+
+![Tableau screenshots](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Goal%20Scorers.png)
+
+![Tableau screenshots](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/under%2023%20stars.png)
