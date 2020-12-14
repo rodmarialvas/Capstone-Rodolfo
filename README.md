@@ -163,4 +163,4 @@ Best estimator mean cross validated training score:
 
 ![Tableau screenshots](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Goal%20Scorers.png)
 
-![Tableau screenshots](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/under%2023%20stars.png)
+![Tableau screenshots](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Screenshot%202020-12-14%20at%2010.47.58.png)
