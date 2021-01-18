@@ -48,7 +48,8 @@ Models used : Linear regression, LassoCV, RidgeCV, ElasticnetCV, Knn Regressor, 
 
 1. **Linear Regression** 
 
-|Mean cross validation score | 0.2169554443734551|
+| -------------------------- | ------------------ |
+|Mean cross validation score | 0.2169554443734551 |
 
 2. **DecisionTreeRegressor**(max_depth=8)
 
