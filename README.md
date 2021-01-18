@@ -52,11 +52,15 @@ Models used : Linear regression, LassoCV, RidgeCV, ElasticnetCV, Knn Regressor, 
 | :-------------------------: | :----------------: |
 | Mean cross validation score | 0.2169554443734551 |
 
+
+
 2. **DecisionTreeRegressor**(max_depth=8)
 
 | Decision Tree Regressor     | Score              |
 | :-------------------------: | :----------------: |
 | Mean cross validation score | 0.3432106216819707 |
+
+
 
 - **Predicting goals_scored for attackers**:
 
@@ -66,6 +70,8 @@ Models used : Linear regression, LassoCV, RidgeCV, ElasticnetCV, Knn Regressor, 
 | :-------------------------: | :----------------: |
 | Mean cross validation score | 0.8804026621170709 |
 
+
+
 - **Predicting duels_won for defenders**:
 
 1. **LassoCV**
@@ -74,11 +80,15 @@ Models used : Linear regression, LassoCV, RidgeCV, ElasticnetCV, Knn Regressor, 
 | :-------------------------: | :----------------: |
 | Mean cross validation score | 0.9895123559099694 |
 
+
+
 As score was very high I've also tried the model without the most correlated feature (total_duels).
 
 | LassoCV                     | Score              |
 | :-------------------------: | :----------------: |
 | Mean cross validation score | 0.7430688883066259 |
+
+
 
 - **Predicting assists for midfielders**:
 
@@ -87,6 +97,8 @@ As score was very high I've also tried the model without the most correlated fea
 | LassoCV                     | Score              |
 | :-------------------------: | :----------------: |
 | Mean cross validation score | 0.6845306409517158 |
+
+
 
 - **Predicting goals_scored for midfielders**:
 
@@ -98,6 +110,8 @@ As score was very high I've also tried the model without the most correlated fea
 
 NOTE : Not as high as for the attackers.
 
+
+
 - **Predicting goals_conceded for goalkeepers**:
 
 1. **LassoCV**
@@ -105,6 +119,7 @@ NOTE : Not as high as for the attackers.
 | LassoCV                     | Score              |
 | :-------------------------: | :----------------: |
 | Mean cross validation score | 0.9242224609563434 |
+
 
 
 ### **Capstone Part 5: Modeling with classifiers**
