@@ -8,6 +8,8 @@ I've always felt that although performances and results depend on many factors, 
 
 ( for full pdf presentation - [presentation](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Capstone%20Data%20Science%20-%20Rodolfo.pdf) )
 
+( for full code - [code](https://github.com/rodmarialvas/Capstone-Rodolfo/blob/main/Capstone%20Rodolfo.ipynb) )
+
 
 ### **Capstone Part 1: Goals**
 
@@ -46,7 +48,7 @@ Models used : Linear regression, LassoCV, RidgeCV, ElasticnetCV, Knn Regressor, 
 
 1. **Linear Regression** 
 
-Mean cross validation score: 0.2169554443734551
+|Mean cross validation score | 0.2169554443734551|
 
 2. **DecisionTreeRegressor**(max_depth=8)
 
