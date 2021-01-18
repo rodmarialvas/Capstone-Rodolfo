@@ -54,41 +54,57 @@ Models used : Linear regression, LassoCV, RidgeCV, ElasticnetCV, Knn Regressor, 
 
 2. **DecisionTreeRegressor**(max_depth=8)
 
-Mean cross validation score: 0.3432106216819707
+| Decision Tree Regressor     | Score              |
+| :-------------------------: | :----------------: |
+| Mean cross validation score | 0.3432106216819707 |
 
 - **Predicting goals_scored for attackers**:
 
 1. **LassoCV**
 
-Mean cross-validated training score: 0.8804026621170709
+| LassoCV                     | Score              |
+| :-------------------------: | :----------------: |
+| Mean cross validation score | 0.8804026621170709 |
 
 - **Predicting duels_won for defenders**:
 
 1. **LassoCV**
 
-Mean cross validation score: 0.9895123559099694
+| LassoCV                     | Score              |
+| :-------------------------: | :----------------: |
+| Mean cross validation score | 0.9895123559099694 |
 
 As score was very high I've also tried the model without the most correlated feature (total_duels).
 
-Mean cross-validated training score: 0.7430688883066259
+| LassoCV                     | Score              |
+| :-------------------------: | :----------------: |
+| Mean cross validation score | 0.7430688883066259 |
 
 - **Predicting assists for midfielders**:
 
 1. **LassoCV**
 
-Mean cross-validated training score: 0.6845306409517158
+| LassoCV                     | Score              |
+| :-------------------------: | :----------------: |
+| Mean cross validation score | 0.6845306409517158 |
 
 - **Predicting goals_scored for midfielders**:
 
 1. **LassoCV**
 
-Mean cross-validated training score: 0.7438977475673354 (not as high as for the attackers)
+| LassoCV                     | Score              |
+| :-------------------------: | :----------------: |
+| Mean cross validation score | 0.7438977475673354 |
+
+NOTE : Not as high as for the attackers.
 
 - **Predicting goals_conceded for goalkeepers**:
 
 1. **LassoCV**
 
-Mean cross-validated training score: 0.92422246095634348
+| LassoCV                     | Score              |
+| :-------------------------: | :----------------: |
+| Mean cross validation score | 0.9242224609563434 |
 
 
 ### **Capstone Part 5: Modeling with classifiers**
@@ -115,15 +131,16 @@ max          9.400000
 
 As mean rating is 6.87, I've decided to create a binary variable where 'top performers' are all players performing above threshold of 7.0. 
 
-0 = 'normal performers'
-
-1 = 'top performers'
+| 'normal performers'| 'top performers' |
+| :----------------: | :--------------: |
+| 0                  | 1                |
 
 **Proportion of the classes**
 
-0    0.703636
+| 'normal performers'| 'top performers' |
+| :----------------: | :--------------: |
+| 0.703636           | 0.296364         |
 
-1    0.296364
 
 baseline = 0.7036364701059905
 
